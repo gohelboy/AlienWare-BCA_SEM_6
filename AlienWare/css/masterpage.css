@@ -1,0 +1,112 @@
+﻿*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Roboto;
+    transition:all 0.4s;
+}
+
+a{
+    color:white;
+}
+
+.nav {
+    background-color: #222;
+}
+    .nav .navlink{
+        margin:0;
+        padding:0;
+        width:100%;
+        display:flex;
+        align-items:center;
+        justify-content:space-between;
+    }
+        .nav .navlink img {
+            width: 40px;
+        }
+        .nav .navlink .rbtn{
+            padding: 10px 30px;
+            border:2px #fff solid;
+        }
+            .nav .navlink .rbtn:hover {
+                border-color:#999;
+            }
+        .nav ul {
+            margin: 35px 0px;
+            display: flex;
+            align-items: center;
+            list-style: none;
+        }
+    .nav a {
+        color: white;
+        margin: 20px;
+        text-decoration: none;
+    }
+    .nav a:hover {
+        color: #999;
+    }
+
+footer {
+    background-color: #222;
+    color: white;
+    margin-top: 0;
+    padding-bottom: 100px;
+}
+
+.footer-links {
+    text-align:center;
+    justify-content: space-between;
+    padding-top: 100px;
+    display: flex;
+    font-size: 12px;
+}
+
+.right-links {
+    width: 100%;
+    padding: 0px 15px;
+}
+    .right-links ul {
+        height: 100%;
+        align-items: center;
+        display: flex;
+        list-style: none;
+    }
+        .right-links ul li a {
+            padding: 0px 10px;
+            text-decoration: none;
+            color: white;
+        }
+.left-links {
+    text-align:right;
+    padding: 0px 15px;
+    width: 100%;
+    align-items: center;
+}
+    .left-links img {
+        cursor:pointer;
+        padding-left: 30px;
+        width:60px;
+    }
+
+.aw-brand {
+    padding: 200px 0px;
+    text-align: center;
+}
+        .aw-brand img {
+            width: auto;
+            max-width: 400px;
+        }
+
+.last-section {
+    font-size: 12px;
+    opacity: 0.6;
+}
+.last-section .dell{
+    padding-left:30px;
+}
+.legal {
+    padding:25px 15px 0px;
+}
+.legal span{
+    font-weight:700;
+}

@@ -1,0 +1,183 @@
+﻿* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+    transition: all 0.4s;
+}
+
+body {
+    font-size: 16px;
+}
+a{
+    text-decoration:none;
+}
+p {
+    display: block;
+}
+
+h2 {
+    font-size: 28px;
+    line-height: 32px;
+    font-weight: 700;
+}
+.col-xl-12 {
+    width: 100%;
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.microinfo {
+    padding: 20px 0px;
+    text-align: right;
+}
+.hero {
+    margin-top: 40px;
+    margin-bottom: 40px; 
+}
+    .hero .hero-wrap {
+        
+        
+        display: flex;
+    }
+        .hero .hero-wrap .hero-right-side {
+            width: 100%;
+            padding-right: 24px;
+        }
+        .hero .hero-wrap .hero-left-side {
+            padding-right: 24px;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+        }
+        .hero .hero-title {
+            padding-left:14px;
+            text-align:center;
+        }
+            .hero .hero-title img {
+
+                margin: 20px 40px;
+                width: 42px;
+            }
+        .hero .hero-title h1 {
+            text-align:start;
+            font-size:32px;
+        }
+.hero-left-side .hero-content {
+    padding-left: 24px;
+}
+        .hero-left-side .hero-content .hero-detail h2 {
+            font-size: 20px;
+        }
+        .hero-left-side .hero-content .hero-detail p {
+            font-size: 14px;
+        }
+        .hero-left-side .hero-content .hero-detail .hero-price {
+            font-size: 32px;
+        }
+        .hero-left-side .hero-content .hero-detail .button {
+            background-color: #444;
+            outline: none;
+            color: cyan;
+            font-weight: bolder;
+            padding: 10px 40px;
+            border: 3px solid #444;
+            width: auto;
+            text-align: center;
+        }
+    .hero-left-side .hero-content .hero-detail .button:hover {
+        color: #444;
+        background-color: white;
+    }
+
+.hero-right-side .product {
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    max-width: 100%;
+}
+
+.hero-right-side .big-img-container {
+    width:100%;
+    border-bottom: 2px solid #e0e0e0;
+}
+    .hero-right-side .big-img-container img {
+        width: auto;
+        max-width: 100%;
+    }
+.hero-right-side .small-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 20px 0px;
+}
+    .hero-right-side .small-img img {
+        border: 2px solid grey;
+        margin:10px;
+        width: auto;
+        max-width: 20%;
+        cursor: pointer;
+        opacity: .5;
+    }
+
+    .hero-right-side .small-img img:hover {
+        opacity: 1;
+    }
+
+.specs-title{
+    padding:20px;
+    text-align:center;
+}
+
+.specs1 .os {
+    text-align:center;
+    width:100%;
+    padding:0px 15px;
+}
+    .specs1 .os .content {
+        padding: 20px;
+        border-bottom: 1px solid #808080;
+        margin-bottom: 40px;
+        
+    }
+        .specs1 .os .content h2{
+            text-align:left;
+        }
+        .specs1 .os .content p {
+            font-size: 14px;
+            text-align: left;
+        }
+        .specs1 .os .content p span {
+            font-weight: 700;
+        }
+        .specs1 .os img{
+            width:auto;
+            max-width:100%;
+        }
+        .back-btn {
+            padding-bottom: 30px;
+            margin-left: 30px;
+        }
+    .back-btn .button {
+        color: white;
+        font-weight: bolder;
+        padding: 10px 40px;
+        border: 3px solid #444;
+        text-decoration: none;
+        background-color: #444;
+        outline: none;
+    }
+
+        .back-btn .button:hover {
+            color: #444;
+            background-color: white;
+        }
+
+
+

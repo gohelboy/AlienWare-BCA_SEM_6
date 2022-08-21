@@ -1,0 +1,96 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="AlienWare.master.cs" Inherits="AlienWare.AlienWare" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+
+    <title>Alienware</title>
+    <link rel = "icon" type = "image/png" href="Assets/LOGOS/aw-icon.png" />
+
+    <%--- BootStrap CSS ---%>
+    <link href="Bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+
+    <%--- Fontawesome css ---%>
+    <link href="fontawesome/css/all.css" rel="stylesheet" />
+
+    <%--- Custom CSS ---%>
+    <link href="css/masterpage.css" rel="stylesheet" />
+
+    <%--- BootStrap JS ---%>
+    <script src="Bootstrap/js/jquery-3.5.1.slim.min.js"></script>
+    <script src="Bootstrap/js/popper.min.js"></script>
+    <script src="Bootstrap/js/bootstrap.min.js"></script>
+        
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+
+        <%--- Navbar ---%>
+        <nav class="nav">
+            <div class="container">  
+                <div class="navlink">
+                    <ul>
+                        <li><a href="homepage.aspx"><img src="/Assets/LOGOS/aw-icon.png"/> </a></li>  
+                        <li><asp:LinkButton href="homepage.aspx" runat="server">Home</asp:LinkButton></li>
+                        <li><asp:LinkButton href="contact.aspx" runat="server">Contact</asp:LinkButton></li>
+                        <li><asp:LinkButton href="about.aspx" runat="server">About</asp:LinkButton></li>
+                    </ul>
+                    <div>
+                        <ul>
+                            <li><asp:LinkButton class="rbtn" ID="Register" href="signup.aspx" runat="server">Register</asp:LinkButton></li>
+                            <li><asp:LinkButton ID="HELLO" runat="server"><span>Hello, USER</span></asp:LinkButton></li>
+                            <li><asp:LinkButton ID="Logout" OnClick="Logout_Click" runat="server">Logout</asp:LinkButton></li> 
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
+        </div>
+
+         <%--- Footer ---%>
+        <footer>
+            <div class="col-xl-12">
+                <div class="footer-links">
+                   <div class="right-links">
+                       <ul>
+                           <li> <a href="#">Privacy Statement</a> </li> |
+                           <li> <a href="#">Legal & Regulatory</a> </li> |
+                           <li> <a href="#">Terms of Sale</a> </li>
+                       </ul>
+                   </div>
+                    <div class="left-links">
+                        <img src="/Assets/icon/icn-instagram@2x.png" />
+                        <img src="/Assets/icon/icn-youtube@2x.png" />
+                        <img src="/Assets/icon/icn-twitter@2x.png" />
+                        <img src="/Assets/icon/icn-facebook@2x.png" />
+                        <img src="/Assets/icon/icn-twitch@2x.png" />
+                   </div>
+                </div>
+            </div>
+            <div class="col-xl-12"><div class="aw-brand"><img src="/Assets/LOGOS/Alienware.png" /></div></div>
+            <div class="col-xl-12">
+                <div class="last-section">
+                    <div class="dell">
+                         © 2021 Dell
+                    </div>
+                    <div class="legal">
+                        <div >
+                            <p><span>*DELL'S TERMS AND CONDITIONS: </span>All sales subject to Dell's terms and conditions. You can find them by clicking on "Terms and Conditions of Sale" located at the bottom of our website, www.dell.co.in OR on request</p>
+                            <p><span>GOODS BY DELIVERY ONLY: </span>The goods advertised above are supplied direct by Dell. They are sold direct from the factory to the customer.</p>
+                            <p><span>ONLINE PRICING: </span>Prices advertised online include delivery fees. Goods are supplied by delivery only. Limit 5 units per customer. </p>
+                            <p><span>MISTAKES: </span>While all efforts are made to check pricing and other errors, inadvertent errors do occur from time to time and Dell reserves the right to decline orders arising from such errors.</p>
+                            <p><span>TRADEMARKS: </span>Celeron, Intel, the Intel logo, Intel Atom, Intel Core, Intel Inside, the Intel Inside logo, Intel vPro, Intel Evo, Intel Optane, Intel Xeon Phi, Iris, Itanium, MAX, Pentium, and Xeon are trademarks of Intel Corporation or its subsidiaries.</p>
+                            <p><span>COPYRIGHT: </span>© 2021 <a href="#">Dwarkesh Gohel</a> ( @gohelboy ).</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </form>
+</body>
+</html>

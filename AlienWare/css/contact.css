@@ -1,0 +1,52 @@
+﻿* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Roboto;
+}
+
+body{
+    background-color:#f2f2f2;
+}
+
+.contact .container {
+    padding: 50px 0px;
+}
+
+.title {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.title h1 {
+    font-weight: 300;
+    text-align:center;
+    padding:32px;
+}
+
+.col-lg-4{
+    margin-bottom:16px;
+}
+
+.contact-box {
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 20px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius:16px;
+    box-shadow: 15px 15px 21px #e1e1e3, -15px -15px 21px #ffffff;
+}
+    .contact-box h3 {
+        cursor:pointer;
+        color: #006bbd;
+        font-size: 20px;
+    }
+.contact-box p {
+    color:#777;
+    font-size: 16px;
+}
+    .contact-box p:hover {
+        color: black;
+    }
+
+

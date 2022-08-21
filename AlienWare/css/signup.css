@@ -1,0 +1,98 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+    animation: all 0.4s;
+}
+
+body {
+    color: #444;
+    background-color: #f2f2f2;
+}
+
+.form-holder {
+    background-color:#fff;
+    width:50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 100px 0px;
+    padding: 75px 0px;
+    border-radius: 15px;
+    box-shadow: 15px 15px 21px #e1e1e3, -15px -15px 50px #ffffff;
+}
+    .form-holder .signup-form {
+        margin-left: 75px;
+        margin-right: 75px;
+        overflow: hidden;
+    }
+    .form-holder .signup-form h1{
+        font-size:50px;
+        margin-bottom:30px;
+    }
+        .form-holder .signup-form .form-group {
+            display:flex;
+            align-items:center;
+            justify-content:space-between;
+            width: 100%;
+            height:auto;
+            padding: 10px 0px;
+        }
+
+            .form-holder .signup-form .form-group .fa {
+                color: #444;
+                padding: 0px 12px;
+            }
+            .form-holder .signup-form .form-group .tf {
+                outline: none;
+                border: none;
+                border-bottom: 1px solid;
+                font-size: 14px;
+                width: 100%;
+            }
+            .form-holder .signup-form .form-group p{
+                padding-top:18px;
+            }
+            .form-holder .signup-form .form-group p span {
+                border-bottom: 1px solid;
+                cursor: pointer;
+            }
+        .form-holder .signup-form .btn {
+            padding: 0;
+        }
+        .form-holder .signup-form .btn .button{
+            outline:none;
+            border:none;
+            padding:10px 40px;
+            background-color:#6b64ff;
+            color:white;
+        }
+
+        .form-holder .signup-form .btn .button:hover {
+            outline: none;
+            border: none;
+            padding: 10px 40px;
+            background-color: #4037FB;
+            color: white;
+        }
+.form-holder .img{
+    text-align:center;
+}
+    .form-holder .img img{
+        width:auto;
+        max-width:100%;
+    }
+    .form-holder .img .loginlink{
+        margin-top:50px;
+    }
+    .form-holder .img .loginlink a{
+        text-decoration:none;
+        color:#444;
+        border-bottom:1px solid;
+    }
+        .form-holder .img .loginlink a:hover {
+            color:black;
+            font-weight:bold;
+        }
